@@ -10,27 +10,51 @@
 .rejilla{color: white;text-align: center;}
 div.small-1.medium-1.large-1.column{border: 1px solid white;}
 
-/*<h1{font-family:"Playfair Display", serif; }*/
+
 h1
 {
   font-family:"Raleway",sans-serif;
   font-size: 40px;
   font-weight: bold;
 }
-span
+h3
+{
+    font-family:"Raleway",sans-serif;
+    font-weight: bold;
+}
+h5
+{
+  font-family:"Playfair Display", serif;
+  font-weight: bold;
+ }
+span, legend
 {
   font-size:24px;
-
 }
 .todo
 {
   background-color: rgba(0, 0, 0, 0.5);
-
 }
-
-
+button.button{background-color:#FF4000;}
+a.button.hollow.alert{color:black;border:1px solid #FF4000; }
 .encabezado{height: 100px; width: 100%; color: white; margin-bottom: 1.6rem;}
 ul.menu
 {
   margin-bottom: 1rem;
+}
+div.callout.izq
+{
+  margin-top: 5px;
+  margin-left: 13px;
+  background-color:#FBF2EF;
+}
+div.callout.der
+{
+  margin-top: 5px;
+  margin-right: 13px;
+  background-color:#FBF2EF;
+}
+img.thumbnail
+{
+  width: 100%;
 }
